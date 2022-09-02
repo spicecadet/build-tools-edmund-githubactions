@@ -23,6 +23,7 @@
     "wpackagist-plugin/lh-hsts": "^1.24",
     "wpackagist-plugin/pantheon-advanced-page-cache": ">=0.3.0",
     "wpackagist-plugin/wp-native-php-sessions": ">=0.6.9",
+    "wpackagist-plugin/wp-redis": "^1.2",
     "wpackagist-theme/twentynineteen": "^1.2"
   },
   "require-dev": {
@@ -44,6 +45,11 @@
     "sort-packages": true,
     "platform": {
       "php": "7.3"
+    },
+    "allow-plugins": {
+      "composer/installers": true,
+      "johnpbloch/wordpress-core-installer": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
     }
   },
   "extra": {
