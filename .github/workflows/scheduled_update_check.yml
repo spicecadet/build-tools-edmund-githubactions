@@ -28,7 +28,7 @@ env:
 jobs:
   scheduled_update_check:
     container:
-      image: quay.io/pantheon-public/build-tools-ci:6.x
+      image: quay.io/pantheon-public/build-tools-ci:fix-clu-6-x
       options: --user root
     runs-on: ubuntu-latest
     steps:
