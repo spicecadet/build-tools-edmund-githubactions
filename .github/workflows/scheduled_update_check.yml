@@ -61,4 +61,4 @@ jobs:
           eval `ssh-agent -s`
           ssh-add ../private.key
           source $BASH_ENV
-          set -e && terminus project:clu $TERMINUS_SITE
+#          set -e && terminus project:clu $TERMINUS_SITE
